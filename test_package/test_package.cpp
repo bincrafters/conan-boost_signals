@@ -1,7 +1,7 @@
-#include <boost/system/system_error.hpp>
+#include <boost/signal.hpp>
 
 int main()
 {
-	boost::system::system_category();
+	boost::signal<void ()> sig;
 }
 
