@@ -2,6 +2,6 @@
 
 int main()
 {
-	boost::signal<void ()> sig;
+	boost::signal<void ()> sig();
 }
 
