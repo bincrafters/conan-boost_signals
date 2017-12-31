@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostSignalsConan(ConanFile):
     name = "boost_signals"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-signals"
+    url = "https://github.com/bincrafters/conan-boost_signals"
 
     lib_short_names = ["signals"]
     is_header_only = False
