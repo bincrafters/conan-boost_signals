@@ -15,7 +15,6 @@ class BoostSignalsConan(ConanFile):
     options = {"shared": [True, False]}
     default_options = "shared=False"
 
-    # TODO: integer
     requires = (
         "boost_any/1.67.0@bincrafters/testing",
         "boost_config/1.67.0@bincrafters/testing",
